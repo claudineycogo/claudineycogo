@@ -3,7 +3,7 @@ name: GitHub Snake Game
 on:
   # run automatically every 24 hours
   schedule:
-    - cron: "0 0 * * *" 
+    - cron: "15 15 * * *" 
   
   # allows to manually run the job at any time
   workflow_dispatch:
